@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 
 char write_alphabet(int i) {
     i = 97;
