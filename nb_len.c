@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-void nb_len(int nb) {
+int nb_len(int nb) {
     int i=0;
     //int n=0;
 
@@ -8,5 +7,5 @@ void nb_len(int nb) {
         nb = nb / 10;
         i = i + 1;
     }
-    printf("%d\n", i);
+    return (i);
 }
