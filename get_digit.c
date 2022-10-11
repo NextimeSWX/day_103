@@ -1,5 +1,6 @@
 #include <stdio.h>
-void get_digit(int nb, int index) {
+
+int get_digit(int nb, int index) {
     int i = 0;
 
     while (i < index) {
@@ -7,5 +8,5 @@ void get_digit(int nb, int index) {
         i = i + 1;
     }
     nb = nb % 10;
-    printf("%d\n", nb);
+    return (nb);
 }
